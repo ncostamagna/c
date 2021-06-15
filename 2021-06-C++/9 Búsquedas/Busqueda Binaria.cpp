@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// El arreglo tiene que estar ordenado de manera ascendente
+// es la seleccion por indice
 int main(){
 	int numeros[] = {1,2,3,4,5};
 	int inf,sup,mitad,dato,i;

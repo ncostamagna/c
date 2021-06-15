@@ -1,11 +1,12 @@
-/*Ejercicio 6: Escriba una plantilla de función llamada maximo() que devuelva el valor 
-máximo de tres argumentos que se transmitan a la función cuando sea llamada.
-Suponga que los tres argumentos serán del mismo tipo de datos.*/
+/*Ejercicio 6: Escriba una plantilla de funciï¿½n llamada maximo() que devuelva el valor 
+mï¿½ximo de tres argumentos que se transmitan a la funciï¿½n cuando sea llamada.
+Suponga que los tres argumentos serï¿½n del mismo tipo de datos.*/
 
 #include<iostream>
 #include<conio.h>
 using namespace std;
 
+// puede ser un tipo de dato general, cualquiera
 template <class T>
 T maximo(T dato1, T dato2, T dato3);
 
@@ -18,6 +19,7 @@ int main(){
 	return 0;
 }
 
+// Va a utilizar una plantilla de funcion
 template <class T>
 T maximo(T dato1, T dato2, T dato3){
 	T max;
