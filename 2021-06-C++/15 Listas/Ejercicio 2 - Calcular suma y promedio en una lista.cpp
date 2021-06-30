@@ -1,4 +1,4 @@
-/*Ejercicio 2: Crear una lista que almacene "n" números reales  y calcular su suma y promedio.*/
+/*Ejercicio 2: Crear una lista que almacene "n" nï¿½meros reales  y calcular su suma y promedio.*/
 
 #include<iostream>
 #include<conio.h>
@@ -9,6 +9,7 @@ struct Nodo{
 	Nodo *siguiente;	
 };
 
+// puntero y por referencia
 void insertarLista(Nodo *&,float);
 void mostrarLista(Nodo *);
 void calcularSumaPromedio(Nodo *);
@@ -48,7 +49,7 @@ void insertarLista(Nodo *&lista,float n){
 		lista = nuevo_nodo;
 	}
 	else{
-		aux = lista; //aux señala el inicio de la lista
+		aux = lista; //aux seï¿½ala el inicio de la lista
 		while(aux->siguiente != NULL){ //recorremos la lista
 			aux = aux->siguiente;
 		}

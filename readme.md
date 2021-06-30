@@ -128,3 +128,17 @@ int main(){
 	return 0;
 }
 ```
+
+# Listas enlazadas
+<img src="images/1.png"/><br/>
+Los podemos dividir en 4 categorias<br />
+<img src="images/2.png"/><br/>
+<img src="images/3.png"/><br/>
+<img src="images/4.png"/><br/>
+<img src="images/5.png"/><br/>
+
+## Operaciones
+- Insertar elementos en una lista enlazada
+- Mostrar elementos de una lista enlazada 
+- Buscar un elemento en una lista enlazada
+- Eliminar un elemento de una lista enlazada
