@@ -142,3 +142,6 @@ Los podemos dividir en 4 categorias<br />
 - Mostrar elementos de una lista enlazada 
 - Buscar un elemento en una lista enlazada
 - Eliminar un elemento de una lista enlazada
+
+# Arboles
+No vamos a tener un puntero sino 2, no vamos a ir de forma lineal como los anteriores
