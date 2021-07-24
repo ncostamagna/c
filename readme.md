@@ -1,5 +1,25 @@
 # Index
 
+- [Arreglos](#arreglos)
+    + [Asignacion Dinamica](#asignacion-dinamica)
+- [Librerias](#librerias)
+  * [Conio](#conio)
+      - [Getch](#getch)
+  * [stdlib](#stdlib)
+      - [New y Delete](#new-y-delete)
+- [Funciones](#funciones)
+  * [Plantillas](#plantillas)
+  * [Parametros por referencia](#parametros-por-referencia)
+- [Punteros](#punteros)
+  * [Arrays y Punteros](#arrays-y-punteros)
+- [Listas enlazadas](#listas-enlazadas)
+  * [Operaciones](#operaciones)
+- [Arboles](#arboles)
+- [Programacion Orientada a Objetos](#programacion-orientada-a-objetos)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 # Arreglos
 Debemos definir el tamaño del array desde la inicializacion
 
@@ -145,3 +165,6 @@ Los podemos dividir en 4 categorias<br />
 
 # Arboles
 No vamos a tener un puntero sino 2, no vamos a ir de forma lineal como los anteriores
+
+# Programacion Orientada a Objetos
+Por lo general se tienen separadas  las clases con las funcionalidades (Punto.h y Punto.cpp en POO clase 1)
