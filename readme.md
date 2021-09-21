@@ -168,3 +168,26 @@ No vamos a tener un puntero sino 2, no vamos a ir de forma lineal como los anter
 
 # Programacion Orientada a Objetos
 Por lo general se tienen separadas  las clases con las funcionalidades (Punto.h y Punto.cpp en POO clase 1)
+
+```c++
+
+class Punto{
+
+	// Publico
+	public:
+		int x, y;
+
+	private:
+		int valorPrivado;
+
+	//Metodos
+	public:
+		// Contructor
+		Punto(int _x, int _y){
+			x = y = 0;
+		}
+
+		void setX(int valorX);
+}
+
+```
